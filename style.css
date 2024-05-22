@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+
+header h1 span {
+    color: #000;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #555;
+}
+
+main {
+    display: flex;
+}
+
+.left-column, .right-column {
+    padding: 20px;
+}
+
+.left-column {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 40px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.contact a i {
+    margin-right: 10px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.skills p, .education-entry p {
+    margin: 5px 0;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-entry {
+    flex: 1;
+    text-align: center;
+}
+
+.education-line {
+    width: 1px;
+    height: 80px;
+    background-color: #ddd;
+    margin: 0 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
