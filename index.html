@@ -4,117 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-<!--     <link rel="stylesheet" href="https://github.com/saimahendra282/assignment-1/blob/1aa0f7985723e5e1d3596358a4b1de42c7e53579/style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            letter-spacing: 5px;
+        }
+        header h1 span {
+            color: #000;
+        }
+        header h2 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #555;
+        }
+        main {
+            display: flex;
+        }
+        .left-column, .right-column {
+            padding: 20px;
+        }
+        .left-column {
+            width: 30%;
+            border-right: 1px solid #ddd;
+        }
+        .right-column {
+            width: 70%;
+            padding-left: 40px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .contact a {
+            display: flex;
+            align-items: center;
+            color: #333;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .contact a i {
+            margin-right: 10px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .skills p, .education-entry p {
+            margin: 5px 0;
+        }
+        .education {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .education-entry {
+            flex: 1;
+            text-align: center;
+        }
+        .education-line {
+            width: 1px;
+            height: 80px;
+            background-color: #ddd;
+            margin: 0 20px;
+        }
+    </style>
 </head>
 <body>
-    <style>body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 48px;
-    letter-spacing: 5px;
-}
-
-header h1 span {
-    color: #000;
-}
-
-header h2 {
-    font-size: 24px;
-    font-weight: normal;
-    color: #555;
-}
-
-main {
-    display: flex;
-}
-
-.left-column, .right-column {
-    padding: 20px;
-}
-
-.left-column {
-    width: 30%;
-    border-right: 1px solid #ddd;
-}
-
-.right-column {
-    width: 70%;
-    padding-left: 40px;
-}
-
-h3 {
-    margin-top: 0;
-}
-
-.contact a {
-    display: flex;
-    align-items: center;
-    color: #333;
-    text-decoration: none;
-    margin: 5px 0;
-}
-
-.contact a i {
-    margin-right: 10px;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
-
-.skills p, .education-entry p {
-    margin: 5px 0;
-}
-
-.education {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.education-entry {
-    flex: 1;
-    text-align: center;
-}
-
-.education-line {
-    width: 1px;
-    height: 80px;
-    background-color: #ddd;
-    margin: 0 20px;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-ul li {
-    margin: 5px 0;
-}</style>
     <div class="container">
         <header>
-            <h1><span>B.</span>Sai  <span>M</span>ahendra</h1>
+            <h1><span>B.</span>Sai <span>M</span>ahendra</h1>
             <h2>Student</h2>
         </header>
         <main>
@@ -122,13 +98,13 @@ ul li {
                 <div class="contact">
                     <h3>CONTACT</h3>
                     <p><a href="mailto:2200030548@kluniversity.in"><i class="fas fa-envelope"></i> 2200030548@kluniversity.in</a></p>
-                    <p><a href="https://github.com/saimahendra282" target="_blank"><i class="fab fa-github"></i>Github</a></p>
+                    <p><a href="https://github.com/saimahendra282" target="_blank"><i class="fab fa-github"></i> Github</a></p>
                     <p><a href="https://www.linkedin.com/in/bejawada-sai-mahendra-b18289212/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></p>
-                  <p><a href="https://codepen.io/saimahendra" target="_blank"><i class="fab fa-codepen"></i> Codepen</a></p>
+                    <p><a href="https://codepen.io/saimahendra" target="_blank"><i class="fab fa-codepen"></i> Codepen</a></p>
                 </div>
                 <div class="skills">
                     <h3>SKILLS</h3>
-                    <p>HTML, CSS, GitHub, VS Code,Js,Python,C,Java,Figma...</p>
+                    <p>HTML, CSS, GitHub, VS Code, JS, Python, C, Java, Figma...</p>
                 </div>
             </section>
             <section class="right-column">
@@ -139,12 +115,10 @@ ul li {
                 <div class="work-experience">
                     <h3>WORK EXPERIENCE</h3>
                     <p>Bharat Intern - Web Development</p>
-                  <br>
-                                      <h3>EDUCATION</h3>
-
+                    <br>
+                    <h3>EDUCATION</h3>
                 </div>
                 <div class="education">
-                  
                     <div class="education-entry">
                         <p><strong>B.Tech (CSE)</strong></p>
                         <p>KLEF University</p>
@@ -152,13 +126,13 @@ ul li {
                     </div>
                     <div class="education-line"></div>
                     <div class="education-entry">
-                        <p><strong>Intermidiate</strong></p>
+                        <p><strong>Intermediate</strong></p>
                         <p>Narayana Junior College</p>
                         <p>2020-2022</p>
                     </div>
                     <div class="education-line"></div>
                     <div class="education-entry">
-                        <p><strong>High  School</strong></p>
+                        <p><strong>High School</strong></p>
                         <p>CPS School</p>
                         <p>2020</p>
                     </div>
